@@ -1,0 +1,13 @@
+function tam=soru5()
+deneme=0;
+a=input('Minimum tamsayı değerini giriniz: ');
+b=input('Maksimum tamsayı değerini giriniz: ');
+c=input('Şimdi seçiminizi bu aralıkta giriniz: ');
+if b<a
+    fprintf('Yanlış giriş\n')
+end
+for i=1:1
+    deneme=c-a;
+    fprintf('Seçimize kadar %d sayıda random tamsayı üretildi \n',deneme)
+end
+end
